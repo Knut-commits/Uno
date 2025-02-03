@@ -21,7 +21,23 @@ public class game {
 
     public void show(){
         System.out.println("top card: " + discards.seeTop());
-        System.out.println()
+
+    }
+    private boolean isLegalMove(card a){
+        Card top = discards.seeTop();
+        if()
+    }
+    public void takeTurn(){
+
+        this.show();
+        Player p = players.getFirst();
+        if(p.canPlay(discards.seeTop())){
+            Card c = p.removeCard();
+            if(this.Legal Move(c)){
+                discards.addCard(c);
+                players.add(players.removeFirst());
+            }
+        }
     }
     
 }
