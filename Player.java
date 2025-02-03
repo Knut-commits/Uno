@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 public class Player {
-    private  LinkedList<Card> hand;
+    private   LinkedList<Card> hand;
 
     public Player(){
         hand = LinkedList<Card>();
